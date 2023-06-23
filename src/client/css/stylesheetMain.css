@@ -1,0 +1,146 @@
+body {
+    background-color: white;
+    color: black;
+  }
+
+  .navbar {
+    background-color: #B0EAA2;
+  }
+
+  .navbar-brand {
+    font-size: 32px;
+    font-weight: bold;
+    color: #409d29;
+  }
+
+  .btn-success {
+    background-color: #4acc2a;
+    border-color: #4acc2a;
+    font-weight: bold;
+  }
+
+  .btn-create {
+    background-color: #39a11f;
+    border-color: #39a11f;
+    font-weight: bold;
+    width: 50%;
+  }
+
+  .btn-create:hover {
+    background-color: #297616;
+    border-color: #297616;
+    font-weight: bold;
+  }
+
+  .card {
+    margin-bottom: 1rem;
+    border-radius: 0px;
+    background-color: #55C938;
+  }
+
+  .card-title {
+    font-size: x-large;
+    font-weight: bold;
+    color: #1E8C03;
+    padding: 10px;
+    margin-bottom: 0;
+    
+  }
+
+  .card-text {
+    color: white;
+  }
+
+  .btn-group {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .btn-outline-success {
+    color: #4acc2a;
+    border-color: #4acc2a;
+  }
+
+  .btn-outline-danger {
+    color: #DC3545;
+    border-color: #DC3545;
+  }
+
+  .btn-outline-primary {
+    color: #007BFF;
+    border-color: #007BFF;
+  }
+
+  .btn-block {
+    border-radius: 10px;
+  }
+  .card-body{
+    border-radius: 0;
+  }
+
+  .card-text
+  {
+      color: black;
+  }
+
+  .card
+  {
+      background-color: white;
+  }
+
+  .card-title
+  {
+      background-color: #1E8C03;
+      color: white;
+  }
+
+  .create-header{
+    background-color: #1E8C03;
+    color: white;
+  }
+  .create-post{
+    background-color: #55C938;
+    color: white;
+    width:100%;
+  }
+.comment{
+  margin-top: 0;
+}
+.card{
+  margin-bottom: 0;
+ 
+}
+  #author{
+    color:white;
+    font-size: small;
+    font-weight: lighter;
+    font-style: italic;
+    justify-content: end;
+    display:flex;
+    align-content: middle;
+  }
+
+  .content-date{
+    text-align: right;
+    font-size: small;
+    font-weight: lighter;
+    font-style: italic;
+    
+  }
+
+  .commentinfo{
+    align-items: start;
+  }
+
+  .name{
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 0px;
+    
+  }
+  .username{
+    font-size: small;
+    font-weight: lighter;
+    font-style: italic;
+    margin-top: 0;
+  }

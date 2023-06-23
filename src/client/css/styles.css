@@ -1,0 +1,138 @@
+body 
+{
+    background: linear-gradient(white,#ABFF9D) fixed no-repeat;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.account-info
+{
+  margin-bottom: 1em;
+}
+
+.green-text {
+  color: #1E8C03;
+  font-weight: bold;
+}
+
+.form-text {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #4f772d;
+}
+
+.avatar-img{
+  
+  width: 6em;
+  height: 6em;
+  vertical-align: middle;
+  object-fit: cover;
+  border-radius: 50%;
+
+}
+  
+.is-invalid
+{
+  border-color:red;
+}
+
+
+.error-message
+{
+  color: #478139;
+}
+
+.container {
+  max-width: 30em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2em;
+  border-radius: 10px;
+  background-color: transparent;
+  border: #55C938 4px solid;
+  border-radius: 38px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 900;
+  color:#478139;
+  margin: 0;
+  
+  padding: 10px;
+  display: inline;
+}
+
+.form-heading {
+  font-size: 20px;
+  font-weight: bold;
+  color: #4f772d;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  border-radius: 10px;
+  border: 2px solid #55C938;
+  background-color: transparent;
+  color:#55C938;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color:#55C938;
+  opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+color:#55C938;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+color:#55C938;
+}
+
+  .form-button {
+   background: #39A21F;
+   border-radius: 30px;
+   color: white;
+   width: 45%;
+   font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .form-button:hover {
+    background: #297616;
+    border-color: #297616;
+    font-weight: bold;
+  }
+  nav{
+    display: inline-block;
+    width: 100%;
+    margin-top: 1em;
+  }
+  .form-logout{
+    display: inline;
+    float:right;
+    border-radius: 20px;
+    color: white;
+ background-color: #1E8C03;
+    font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 700;
+     text-align: center;
+     text-transform: uppercase;
+     margin-right: 2em;
+     padding: 0.5em 4em;
+    line-height: 2em;
+     width: auto;
+   }
+   .form-logout:hover {
+      background: #297616;
+     font-weight: bold;
+   }
+  
