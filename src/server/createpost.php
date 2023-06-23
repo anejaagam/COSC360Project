@@ -2,8 +2,8 @@
 session_start();
 $host = "localhost";
 $database = "db_65683799";
-$user = "webuser";
-$password = "P@ssw0rd";
+$user = "65683799";
+$password = "65683799";
 
 $connection = mysqli_connect($host, $user, $password, $database);
 

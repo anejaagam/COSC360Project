@@ -265,8 +265,8 @@ All the PHP files that have SQL Query process going on also have error handling 
 ```
 $host = "localhost";
 $database = "db_65683799";
-$user = "webuser";
-$password = "P@ssw0rd";
+$user = "65683799";
+$password = "65683799";
 $connection = mysqli_connect($host, $user, $password, $database);
 $error = mysqli_connect_error();
 session_start();
@@ -321,8 +321,8 @@ This AJAX call requests the `filterposts.php` file which does server side script
 session_start();
 $host = "localhost";
 $database = "db_65683799";
-$user = "webuser";
-$password = "P@ssw0rd";
+$user = "65683799";
+$password = "65683799";
 
 $connection = mysqli_connect($host, $user, $password, $database);
 
@@ -390,8 +390,8 @@ There is also the ability to upvote or downvote a post. It uses a mix of server 
 session_start();
 $host = "localhost";
 $database = "db_65683799";
-$user = "webuser";
-$password = "P@ssw0rd";
+$user = "65683799";
+$password = "65683799";
 
 $connection = mysqli_connect($host, $user, $password, $database);
 
